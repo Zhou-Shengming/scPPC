@@ -12,7 +12,7 @@ we developed scPPC, a reconstruction framework for single-cell proteomics data. 
 * python: 3.8.18
 * pytorch: 1.12.0
 
-### Installation
+## Installation Environment
 
 1. Create Environment
 
@@ -28,11 +28,11 @@ we developed scPPC, a reconstruction framework for single-cell proteomics data. 
 
 3. Install dependencies
 
-Please select and download the PyTorch version that is compatible with your system configuration and supports CUDA. Take the Linux system we use as an example.
-torch = 1.12.0
-torch_cluster = 1.6.0
-torch_scatter = 2.1.0
-torch_sparse = 0.6.16
+	Please select and download the PyTorch version that is compatible with your system configuration and supports CUDA. Take the Linux system we use as an example.
+	torch = 1.12.0
+	torch_cluster = 1.6.0
+	torch_scatter = 2.1.0
+	torch_sparse = 0.6.16
 
 ```bash
 	pip install https://download.pytorch.org/whl/cu113/torch-1.12.0%2Bcu113-cp38-cp38-linux_x86_64.whl
@@ -41,7 +41,7 @@ torch_sparse = 0.6.16
 	pip install https://data.pyg.org/whl/torch-1.12.0%2Bcu113/torch_cluster-1.6.0%2Bpt112cu113-cp38-cp38-linux_x86_64.whl
 ```
 
-Other dependent install.
+	Other dependent install.
 
 ```bash
 	pip install numpy=1.19.5
@@ -49,3 +49,7 @@ Other dependent install.
 	pip install scipy=1.9.1
 	pip install tqdm=4.64.0
 ```
+
+## Usage
+
+Obtained the reconfiguration result.
