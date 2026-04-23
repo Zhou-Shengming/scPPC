@@ -16,15 +16,15 @@ we developed scPPC, a reconstruction framework for single-cell proteomics data. 
 
 1. Create Environment
 
-```bash
+	```bash
 	conda create -n scPPC python=3.8.18
-```
+	```
 
 2. Activate Environment
 
-```bash
+	```bash
 	conda activate scPPC
-```
+	```
 
 3. Install dependencies
 
@@ -53,3 +53,11 @@ we developed scPPC, a reconstruction framework for single-cell proteomics data. 
 ## Usage
 
 Obtained the reconfiguration result.
+
+```bash
+python3 train.py --input_pro input/input_pro.csv --input_pep input/input_pep.csv --output output/
+```
+
+--input_pro  Path to protein input CSV.
+--input_pep  Path to peptide input CSV.
+--output  Output directory.
