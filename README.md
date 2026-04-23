@@ -34,21 +34,21 @@ we developed scPPC, a reconstruction framework for single-cell proteomics data. 
 	torch_scatter = 2.1.0
 	torch_sparse = 0.6.16
 
-```bash
+	```bash
 	pip install https://download.pytorch.org/whl/cu113/torch-1.12.0%2Bcu113-cp38-cp38-linux_x86_64.whl
 	pip install https://data.pyg.org/whl/torch-1.12.0%2Bcu113/torch_scatter-2.1.0%2Bpt112cu113-cp38-cp38-linux_x86_64.whl
 	pip install https://data.pyg.org/whl/torch-1.12.0%2Bcu113/torch_sparse-0.6.16%2Bpt112cu113-cp38-cp38-linux_x86_64.whl
 	pip install https://data.pyg.org/whl/torch-1.12.0%2Bcu113/torch_cluster-1.6.0%2Bpt112cu113-cp38-cp38-linux_x86_64.whl
-```
+	```
 
 	Other dependent install.
 
-```bash
+	```bash
 	pip install numpy=1.19.5
 	pip install pandas=1.4.2
 	pip install scipy=1.9.1
 	pip install tqdm=4.64.0
-```
+	```
 
 ## Usage
 
