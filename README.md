@@ -58,6 +58,6 @@ Obtained the reconfiguration result.
 python3 train.py --input_pro input/input_pro.csv --input_pep input/input_pep.csv --output output/
 ```
 
-*input_pro  Path to protein input CSV.
-*input_pep  Path to peptide input CSV.
-*output  Output directory.
+* input_pro  Path to protein input CSV.
+* input_pep  Path to peptide input CSV.
+* output  Output directory.
