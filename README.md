@@ -47,6 +47,7 @@ we developed scPPC, a reconstruction framework for single-cell proteomics data. 
 	pip install numpy=1.19.5
 	pip install pandas=1.4.2
 	pip install scipy=1.9.1
+ 	pip install torch-geometric=2.1.0.post1
 	pip install tqdm=4.64.0
 	```
 
